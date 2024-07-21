@@ -57,7 +57,9 @@ export const store = configureStore({
     auth: authSlice.reducer,
   },
 });
+```
 
+```javascript
 import { counterAction, authAction, fetchPosts } from './store.js';
 
 export default function App() {
@@ -106,5 +108,4 @@ export default function App() {
     </div>
   );
 }
-
 ```
